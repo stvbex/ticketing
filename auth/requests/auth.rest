@@ -1,0 +1,23 @@
+POST https://ticketing.dev/api/users/signup
+Content-Type: application/json
+
+{
+    "email": "test@test.com",
+    "password": "password"
+}
+
+###
+GET https://ticketing.dev/api/users/dncsdnclds
+
+###
+POST https://ticketing.dev/api/users/signin
+Content-Type: application/json
+
+{
+    "email": "test@test.com",
+    "password": "password"
+}
+
+###
+GET https://ticketing.dev/api/users/currentuser
+Content-Type: application/json
